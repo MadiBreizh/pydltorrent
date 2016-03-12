@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import os
 import re
 import csv
@@ -16,7 +19,7 @@ class PasswdDialect(csv.Dialect):
     delimiter = ","
     # Separateur de ''chaine''
     quotechar = None
-    # Gestion du séparateur dans les ''chaînes''
+    # Gestion du separateur dans les chaines
     escapechar = None
     doublequote = None
     # Fin de ligne

@@ -15,7 +15,7 @@ OBJ_transmission = transmissionrpc.Client(address = ADRESS_RPC, port = PORT_RPC,
 # Boucle par catégorie
 for categorie in listeCategorie:
     historique = chargement_historique(categorie)
-    # Boucle par page de téléchargement
+    # Boucles par page de téléchargement
     for urlPageDl in extraction_liens_pages(categorie):
         # TODO : Etape de vérification de la présence,
         lienTorrent = extraction_liens_torrent(urlPageDl)

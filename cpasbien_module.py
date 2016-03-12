@@ -12,7 +12,7 @@ from cpasbien_variables import *
 
 class PasswdDialect(csv.Dialect):
     """Object du module csv permettant la compatibilite avec notre fichier"""
-    # Séparateur de champ
+    # Separateur de champ
     delimiter = ","
     # Séparateur de ''chaîne''
     quotechar = None

@@ -89,7 +89,7 @@ def telechargement_torrent(transmission, lienTorrent, emplacement):
         return True
 
 def verif_pour_telechargement(lienTorrent, historique):
-    """Vérifie que le torrent n'est pas déja historisé"""
+    """Verifie que le torrent n'est pas déja historise"""
     if lienTorrent in historique:
         return False
     return True

@@ -14,7 +14,7 @@ class PasswdDialect(csv.Dialect):
     """Object du module csv permettant la compatibilite avec notre fichier"""
     # Separateur de champ
     delimiter = ","
-    # Séparateur de ''chaîne''
+    # Separateur de ''chaine''
     quotechar = None
     # Gestion du séparateur dans les ''chaînes''
     escapechar = None
